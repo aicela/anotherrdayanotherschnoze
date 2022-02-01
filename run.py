@@ -38,3 +38,7 @@ def answer(question_id, answer_id):
 
 if __name__ == "__main__":
     app.run()
+
+@app.route("/Profile 1")
+def Profile1():
+    return render_template("question.html", question=random_question())
