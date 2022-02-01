@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "First Question",
+        "title": "Question",
         "question": "Do you remember?",
         "answers": [
             {
@@ -17,7 +17,7 @@
 
     {
         "id": 2,
-        "title": "Second Question",
+        "title": "Question",
         "question": "When I was little I was a...",
         "answers": [
             {
@@ -33,7 +33,7 @@
 
     {
         "id": 3,
-        "title": "Third question",
+        "title": "Question",
         "question": "Who did Nicki never screw?",
         "answers": [
             {
@@ -48,7 +48,7 @@
     },
     {
         "id": 4,
-        "title": "Fourth question",
+        "title": "Question",
         "question": "About what do the fake barbz worry?",
         "answers": [
             {
@@ -63,7 +63,7 @@
     },
     {
         "id": 5,
-        "title": "Laaaaaaaast one",
+        "title": "Questioooneeeeee",
         "question": "How old is Nicki Minajzzz CHILD",
         "answers": [
             {
@@ -75,7 +75,7 @@
             }
         ],
         "correct": 1
-    },
+    }
     
     
 
