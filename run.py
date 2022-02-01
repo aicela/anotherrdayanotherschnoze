@@ -35,10 +35,9 @@ def answer(question_id, answer_id):
     correct = check_answer(question_id, answer_id)
     return render_template("answer.html", correct=correct)
 
+@app.route("/profile1")
+def profile1():
+    return render_template("profile1.html")
 
 if __name__ == "__main__":
     app.run()
-
-@app.route("/Profile 1")
-def Profile1():
-    return render_template("question.html", question=random_question())
