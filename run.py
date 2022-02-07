@@ -39,5 +39,10 @@ def answer(question_id, answer_id):
 def profile1():
     return render_template("profile1.html")
 
+@app.route("/anais")
+def anais():
+    return render_template("anais.html")
+
+
 if __name__ == "__main__":
     app.run()
