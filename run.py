@@ -44,11 +44,11 @@ def anais():
     return render_template("anais.html")
 
 @app.route("/anna")
-def anais():
+def anna():
     return render_template("anna.html")
 
 @app.route("/aysela")
-def anais():
+def aysela():
     return render_template("aysela.html")
 
 
