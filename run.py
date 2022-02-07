@@ -43,6 +43,14 @@ def profile1():
 def anais():
     return render_template("anais.html")
 
+@app.route("/anna")
+def anais():
+    return render_template("anna.html")
+
+@app.route("/aysela")
+def anais():
+    return render_template("aysela.html")
+
 
 if __name__ == "__main__":
     app.run()
